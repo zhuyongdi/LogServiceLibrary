@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zyd.lib_log">
+
+    <application>
+        <service
+            android:name="com.zyd.lib_log.LogService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.zye.lib_log.LogService" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
